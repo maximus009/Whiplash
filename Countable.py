@@ -7,6 +7,15 @@ PROJECT WHIPLASH
 import cv2
 import numpy as np
 
+"""
+
+DISCLAIMER:
+<not the best piece of code>
+
+Current version is very naive.
+Grid based approach.
+Works only for right hand.
+"""
 
 cap = cv2.VideoCapture(0)
 I = 0
